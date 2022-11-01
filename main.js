@@ -7,12 +7,14 @@ menuBtn.addEventListener('click', () => {
 
     if (menuBtn.classList.contains('change')) {
         document.getElementById('menu').style.width = '12em'
-        document.getElementById('menu-btn').style.right = '16em'
+        document.getElementById('menu-btn').style.right = '14em'
+        document.getElementById('theme-toggle').style.right = '13em'
         return
     }
 
     document.getElementById('menu').style.width = '0'
-    document.getElementById('menu-btn').style.right = '4em'
+    document.getElementById('menu-btn').style.right = '2em'
+    document.getElementById('theme-toggle').style.right = '1em'
 })
 
 
