@@ -241,7 +241,7 @@ body.dark #menu-btn {
 
 @media (max-width: 35em) {
   #theme-toggle {
-    bottom: 10em;
+    bottom: 7.5em;
   }
 }
 
