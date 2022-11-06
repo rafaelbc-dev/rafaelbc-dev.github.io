@@ -1,5 +1,4 @@
-// Menu button animation
-
+// Menu button
 const menuBtn = document.getElementById('menu-btn')
 
 menuBtn.addEventListener('click', () => {
@@ -8,17 +7,15 @@ menuBtn.addEventListener('click', () => {
     if (menuBtn.classList.contains('change')) {
         document.getElementById('menu').style.width = '12em'
         document.getElementById('menu-btn').style.right = '14em'
-        document.getElementById('theme-toggle').style.right = '13em'
         return
     }
 
     document.getElementById('menu').style.width = '0'
     document.getElementById('menu-btn').style.right = '2em'
-    document.getElementById('theme-toggle').style.right = '1em'
 })
 
 
-// Theme switch
+// Theme switch button
 const switchBtn = document.getElementById('switch-btn')
 const switchToggle = document.getElementById('switch-toggle')
 

@@ -182,10 +182,7 @@ body.dark #menu-btn {
 /* ---------- THEME TOGGLE - SWITCH ---------- */
 
 #theme-toggle {
-  position: fixed;
-  z-index: 1;
-  right: 1em;
-  bottom: 1.4em;
+  margin-top: 5em;
   transition: var(--trans-tm-boxes);
 }
 
@@ -233,18 +230,6 @@ body.dark #menu-btn {
   transition: var(--trans-tm-boxes);
 }
 
-@media (max-width: 62em) {
-  #theme-toggle {
-    bottom: 6.2em;
-  }
-}
-
-@media (max-width: 35em) {
-  #theme-toggle {
-    bottom: 7.5em;
-  }
-}
-
 
 
 /* ---------- HERO ---------- */
@@ -252,7 +237,7 @@ body.dark #menu-btn {
 #hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 8em 4em 8em;
+  margin: 3em 4em 8em;
   font-size: 1.3em;
   transition: var(--trans-tm-boxes);
 }
@@ -319,7 +304,7 @@ body.dark #hero-intro span, body.dark #hero-intro p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 5em 2em;
+    margin: 0 2em 2em;
   }
 
   .hero-intro {
@@ -334,7 +319,7 @@ body.dark #hero-intro span, body.dark #hero-intro p {
 
 @media (max-width: 45em) {
   #hero {
-    margin: 3em 2em;
+    margin: 0 2em 2em;
   }
 
   .hero-intro {
@@ -345,7 +330,7 @@ body.dark #hero-intro span, body.dark #hero-intro p {
 
 @media (max-width: 28em) {
   #hero {
-    margin: 2em 1em;
+    margin: 0 1em 1em;
   }
 }
 
